@@ -10,6 +10,7 @@ import { MatButtonModule } from '@angular/material';
 import { MatIconModule } from '@angular/material';
 import { MatSidenavModule } from '@angular/material';
 import { MatToolbarModule } from '@angular/material';
+import { MatMenuModule } from '@angular/material';
 
 @NgModule({
   declarations: [AppComponent],
@@ -22,7 +23,8 @@ import { MatToolbarModule } from '@angular/material';
     MatButtonModule,
     MatIconModule,
     MatSidenavModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
