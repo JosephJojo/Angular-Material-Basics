@@ -8,7 +8,8 @@ import { MessageNewComponent } from './message-new/message-new.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 // Material Components
-import { MatButtonModule } from '@angular/material';
+import { MatAutocompleteModule } from '@angular/material';
+import { MatButtonModule, MatIconModule } from '@angular/material';
 import { MatFormFieldModule } from '@angular/material';
 import { MatInputModule } from '@angular/material';
 import { MatStepperModule } from '@angular/material';
@@ -22,10 +23,12 @@ import { MatStepperModule } from '@angular/material';
     ReactiveFormsModule,
 
     // Material Components
+    MatAutocompleteModule,
     MatButtonModule,
     MatFormFieldModule,
     MatInputModule,
-    MatStepperModule
+    MatStepperModule,
+    MatIconModule
   ]
 })
 export class MessagesModule {}
