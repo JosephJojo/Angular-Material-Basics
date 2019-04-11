@@ -13,6 +13,7 @@ import { MatCheckboxModule } from '@angular/material';
 import { MatDatepickerModule } from '@angular/material';
 import { MatIconModule } from '@angular/material';
 import { MatInputModule } from '@angular/material';
+import { MatPaginatorModule } from '@angular/material';
 import { MatSortModule } from '@angular/material';
 import { MatTableModule } from '@angular/material';
 import { MatTabsModule } from '@angular/material';
@@ -31,6 +32,7 @@ import { MatMomentDateModule } from '@angular/material-moment-adapter';
     MatDatepickerModule,
     MatIconModule,
     MatInputModule,
+    MatPaginatorModule,
     MatSortModule,
     MatTableModule,
     MatTabsModule,
