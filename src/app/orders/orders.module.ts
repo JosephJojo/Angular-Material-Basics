@@ -9,9 +9,12 @@ import { OrderNewComponent } from './order-new/order-new.component';
 // Material Components
 import { MatButtonModule } from '@angular/material';
 import { MatCardModule } from '@angular/material';
+import { MatCheckboxModule } from '@angular/material';
 import { MatDatepickerModule } from '@angular/material';
 import { MatIconModule } from '@angular/material';
 import { MatInputModule } from '@angular/material';
+import { MatSortModule } from '@angular/material';
+import { MatTableModule } from '@angular/material';
 import { MatTabsModule } from '@angular/material';
 import { MatMomentDateModule } from '@angular/material-moment-adapter';
 
@@ -24,9 +27,12 @@ import { MatMomentDateModule } from '@angular/material-moment-adapter';
     OrdersRoutingModule,
     MatButtonModule,
     MatCardModule,
+    MatCheckboxModule,
     MatDatepickerModule,
     MatIconModule,
     MatInputModule,
+    MatSortModule,
+    MatTableModule,
     MatTabsModule,
     MatMomentDateModule
   ]
